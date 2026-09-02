@@ -1,0 +1,59 @@
+p{
+    text-align: center;
+    color:blue;
+    font-size: 14pt;
+
+}
+body{
+    background-color: cyan;
+}
+.whitewine{
+    color:#FFBB00;
+}
+.redwine{
+    color:#800000;
+}
+.alinhar{
+    text-align:left;
+}
+.beneficio{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40pt;
+    color:black;
+}
+li > a{
+    text-transform: uppercase;
+}
+
+div  a{
+    text-transform: uppercase;
+}
+input[required] {
+ background-color: red;
+}
+
+table, th, td{
+    border:1px dotted black;
+	border-collapse:collapse;
+}
+th, td{
+    padding:15px;
+}
+
+th{
+    text-align:left;
+}
+table{
+    border-spacing:5px;
+}
+
+table#t01 tr:nth-child(even)
+{ background-color:#9a3535;
+}
+table#t01 tr:nth-child(odd){
+    background-color:#fff;}
+table#t01 th{
+    color:white;
+    background-color:black;
+}
