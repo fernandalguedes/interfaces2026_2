@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Mario</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+
+        body{
+
+            background-color: aqua;
+        }
+        header,footer{
+            text-align: center;
+            padding:10px;
+            background-color: black;
+            color:white;
+        }
+        main{
+           margin-top: 50px;
+            border:1px solid black;
+            
+        }
+        article{
+            
+            display: flex;
+            flex-direction:row;
+            background-color: #dea9a9;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 5px;
+            
+        }
+        .card{
+            flex-basis: 150px;
+            background-color: white;
+            border:2px solid black;
+            box-shadow: 5px 5px;
+            padding: 10px;
+            margin:10px;
+        }
+        .texto{
+            text-align: justify;    
+        }
+        .personagem{
+           font-weight: bold;
+           text-align: center;
+        }
+        .foto{
+            text-align: center;
+        }
+                @media screen and (max-width: 800px){
+            article {   
+                flex-direction: column;
+                               
+            }
+            .card{
+                width: 95%;
+                               
+            }
+        }    
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            Personagem Mario Bros
+        </header>
+        <article>
+            <div class="card">
+                <div class="personagem">Mario Bros</div>
+                <div class="foto">
+                    <img src="mario.jpg" width="100px" height="100px">
+                </div>
+                <div class="texto">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eos sed laudantium quos quam obcaecati commodi possimus nam expedita, nostrum vero, quibusdam odit. Distinctio unde quod nihil consequatur? Aliquid, libero. 
+                       
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="personagem">Mario Bros</div>
+                <div class="foto">
+                    <img src="mario.jpg" width="100px" height="100px">
+                </div>
+                <div class="texto">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eos sed laudantium quos quam obcaecati commodi possimus nam expedita, nostrum vero, quibusdam odit. Distinctio unde quod nihil consequatur? Aliquid, libero. 
+                       
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="personagem">Mario Bros</div>
+                <div class="foto">
+                    <img src="mario.jpg" width="100px" height="100px">
+                </div>
+                <div class="texto">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eos sed laudantium quos quam obcaecati commodi possimus nam expedita, nostrum vero, quibusdam odit. Distinctio unde quod nihil consequatur? Aliquid, libero. 
+                       
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="personagem">Mario Bros</div>
+                <div class="foto">
+                    <img src="mario.jpg" width="100px" height="100px">
+                </div>
+                <div class="texto">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eos sed laudantium quos quam obcaecati commodi possimus nam expedita, nostrum vero, quibusdam odit. Distinctio unde quod nihil consequatur? Aliquid, libero. 
+                       
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="personagem">Mario Bros</div>
+                <div class="foto">
+                    <img src="mario.jpg" width="100px" height="100px">
+                </div>
+                <div class="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum similique inventore aspernatur! Maxime, officiis ipsum odit unde enim impedit expedita nam natus nisi consequuntur debitis vero minus quae ab.
+                        </p>
+                    </div>
+            </div>
+            <div class="card">
+                <div class="personagem">Mario Bros</div>
+                <div class="foto">
+                    <img src="mario.jpg" width="100px" height="100px">
+                </div>
+                <div class="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum similique inventore aspernatur! Maxime, officiis ipsum odit unde enim impedit expedita nam natus nisi consequuntur debitis vero minus quae ab.
+                    </p>
+                </div>
+            </div>
+            
+        </article>
+        <footer>
+            Site com cards de Personagens
+        </footer>
+    </main>
+    
+</body>
+</html>
